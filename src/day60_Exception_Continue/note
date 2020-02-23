@@ -1,0 +1,21 @@
+SPIDERMAN
+BATMAN
+SUPERMAN
+-----------------How do you create custom Exception? -------------
+How do you create your own "UNCHECKED" exception type?:
+        BreakTimeException
+
+        What is unchecked exception > Anything IS-A RunTimeException
+
+        so All YOU NEED TO CREATE A SUBCLASS OF RunTimeException WITH YOUR OWN NAME
+
+        public class BreakTimeException extends RuntimeException(or any sub class of it){
+
+        }
+
+  How do you create your own "CHECKED" exception type?:
+
+
+        public class ZaebalJavaException extends Exception(or any sb class){
+
+        }
